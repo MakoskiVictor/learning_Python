@@ -15,10 +15,8 @@ def solution(number):
     for n in range(number):
         if n % 3 == 0  and n % 5 == 0:
             sum += n
-            print("if", sum)
         elif n % 3 == 0 or n % 5 == 0: 
             sum += n
-            print("elif", sum)
 
     return sum
 
