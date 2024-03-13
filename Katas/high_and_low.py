@@ -15,16 +15,7 @@
 def high_and_low (numbers):
     if not isinstance(numbers, str):
         raise ValueError("The ags should be a string")
-    # high_number = int(numbers[0])
-    # low_number = int(numbers[0])
-    
-    # for i in numbers:
-    #     if i != " ":
-    #         if int(i) > high_number:
-    #             high_number = int(i)
-    #         if int(i) < low_number:
-    #             low_number = int(i)
-    # return f"{high_number} {low_number}"
+
     numeros_str = numbers.split()
     
     number = [int(num) for num in numeros_str]
